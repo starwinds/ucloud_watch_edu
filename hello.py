@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/test')
 def test():
-        ucloud_client = Client(api_type='watch',api_key="-tSYN_-DTWi-cClr7iO82ZsCDf08s3nHD41tZmDqQIH2pAmCk2pJpsALHxxMmhnvP-f4SvjSBbh-U7nm5BuKYA",secret="vbUTtitQqvSBBjypg9X3q-QDoz6_mPiW03bjfXcvzw616NTsnI-YlwznBWLcUhm7Zem2A6gQskBgPomQkBwQXg")
+        ucloud_client = Client(api_type='watch',api_key="",secret="")
         response = ucloud_client.request('listAlarms')
 	
         dump_result = json.dumps(response)
