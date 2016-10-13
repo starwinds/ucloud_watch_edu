@@ -1,0 +1,46 @@
+{  
+   "command":"getMetricStatistics",
+   "parameter":{  
+      "metricname":{  
+         "required":"yes",
+         "param":"CPUUtilization"
+      },
+      "namespace":{
+	 "required":"yes",
+	 "param":"ucloud/server"
+      },
+      "Dimensions.member.1.Name":{
+	 "required":"yes",
+         "param":"name"
+      },
+      "Dimensions.member.1.value":{
+         "required":"yes",
+         "param":"CDP-DEV(4fdfb65c-8017-46cc-ba9e-c6f32a9a9d5f)"
+      },
+      "unit":{
+         "required":"yes",
+         "param":"Percent"
+      },
+      "period":{
+         "required":"yes",
+         "param":1
+      },
+      "Statistics.member.1":{
+         "required":"yes",
+         "param":"Average"
+      },
+      "Statistics.member.2":{
+         "required":"yes",
+         "param":"SampleCount"
+      },
+      "StartTime":{
+         "required":"yes",
+         "param":"2016-01-20T14:30:00.000"
+      },
+      "EndTime":{
+         "required":"yes",
+         "param":"2016-01-20T16:50:00.000"
+
+      }
+   }
+}

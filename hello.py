@@ -1,5 +1,5 @@
 from flask import Flask
-from ucloud_api.Client import *
+from ucloud_apis.Client import *
 import pygal
 from pygal.style import DarkSolarizedStyle
 
