@@ -39,8 +39,6 @@ def graph():
         ucloud_client = Client(api_type='watch',api_key=api_key_input,secret=secret_input)
         response = ucloud_client.request(command='getMetricStatistics',args=input_args)
         print "response = %s" % (response)	
-        dump_result = json.dumps(response)
-        #return '%s' %dump_result
 
         #result data manipulation for drawing graph
         time_list = []
