@@ -4,8 +4,8 @@ import pygal
 from pygal.style import DarkSolarizedStyle
 
 app = Flask(__name__)
-api_key_input = "" 
-secret_input = ""
+api_key_input = "-tSYN_-DTWi-cClr7iO82ZsCDf08s3nHD41tZmDqQIH2pAmCk2pJpsALHxxMmhnvP-f4SvjSBbh-U7nm5BuKYA" 
+secret_input = "vbUTtitQqvSBBjypg9X3q-QDoz6_mPiW03bjfXcvzw616NTsnI-YlwznBWLcUhm7Zem2A6gQskBgPomQkBwQXg"
 
 @app.route('/rawdata')
 def rawdata():
